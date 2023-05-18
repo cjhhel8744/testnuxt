@@ -21,12 +21,11 @@ ENV NUXT_PORT=5000
 # start the app
 CMD [ "npm", "start" ]
 
-
-# docker rmi nuxt_app:latest .
-# docker build -t nuxt_app:latest .
 # docker stop nuxtapp
 # docker rm nuxtapp
-# docker run --name nuxtapp -it -p 5000:5000 nuxt_app:latest
+# docker rmi nuxt_app:latest .
+# docker build -t nuxt_app:latest .
+# docker run --name nuxtapp -d -p 5000:5000 nuxt_app:latest
 
 
 
