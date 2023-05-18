@@ -101,7 +101,7 @@
 
 					<!-- gnbMenu -->
 					<ul class="gnbMenu">
-						<!-- <li><nuxt-link id="gm_a_20" to="/mystudy">Test</nuxt-link></li> -->
+						<li><nuxt-link id="gm_a_20" to="/mystudy">Test</nuxt-link></li>
 						<li><nuxt-link id="gm_a_20" to="/course">ALL PASS</nuxt-link></li>
 						<li><nuxt-link id="gm_a_02" to="/lesson">강좌안내</nuxt-link></li>
 						<li><nuxt-link id="gm_a_03" to="/teacher">선생님</nuxt-link></li>
