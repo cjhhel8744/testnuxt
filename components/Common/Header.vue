@@ -53,7 +53,7 @@
 					</div>
 					<!--// *** 2022-05-02 수능일 정보 추가 ***-->
 
-					<a href="javascript:;" onclick="openLayer('.loginPop'); return false;" ;="" class="login">로그인</a>
+					<a href="javascript:;" onclick="openLayer('.loginPop'); return false;" class="login">로그인</a>
 					<a href="/Member/frm_joinyon.aspx?MenuCode=100100">밀크T가입</a>
 					<a href="/Member/frm_idpw_find.aspx?MenuCode=100200">아이디/비밀번호 찾기</a>
 					<a href="/Event/frm_EventList.aspx?menucode=090100">이벤트</a>
@@ -101,6 +101,7 @@
 
 					<!-- gnbMenu -->
 					<ul class="gnbMenu">
+						<li><nuxt-link id="gm_a_20" to="/mystudy">Test</nuxt-link></li>
 						<li><nuxt-link id="gm_a_20" to="/course">ALL PASS</nuxt-link></li>
 						<li><nuxt-link id="gm_a_02" to="/lesson">강좌안내</nuxt-link></li>
 						<li><nuxt-link id="gm_a_03" to="/teacher">선생님</nuxt-link></li>
